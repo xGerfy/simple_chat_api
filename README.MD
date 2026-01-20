@@ -59,24 +59,24 @@ curl -X DELETE http://localhost:8080/chats/1
 
 ## Структура проекта
 
-```text
+```bash
 simpleApiChat/
 ├── cmd/
-│ └── server/
-│ └── main.go # Точка входа приложения
+│    └── server/
+│    └── main.go         # Точка входа приложения
 ├── internal/
-│ ├── app/ # Инициализация приложения
-│ ├── config/ # Конфигурация
-│ ├── handlers/ # HTTP обработчики
-│ ├── models/ # Модели данных
-│ ├── repository/ # Слой работы с БД
-│ └── service/ # Бизнес-логика
-├── migrations/ # SQL миграции для базы данных
-├── tests/ # Тесты
-├── Dockerfile # Конфигурация Docker
-├── docker-compose.yml # Docker Compose конфигурация
-├── go.mod # Зависимости Go
-└── README.md # Этот файл
+│    ├── app/            # Инициализация приложения
+│    ├── config/         # Конфигурация
+│    ├── handlers/       # HTTP обработчики
+│    ├── models/         # Модели данных
+│    ├── repository/     # Слой работы с БД
+│    └── service/        # Бизнес-логика
+├── migrations/          # SQL миграции для базы данных
+├── tests/               # Тесты
+├── Dockerfile           # Конфигурация Docker
+├── docker-compose.yml   # Docker Compose конфигурация
+├── go.mod               # Зависимости Go
+└── README.md            # Этот файл
 ```
 
 ## Docker сервисы
@@ -149,7 +149,7 @@ DELETE /chats/{id}
 
 ## Модели данных
 
-### Chat(чат)
+### Chat (чат)
 
 ```sql
 CREATE TABLE chats (
