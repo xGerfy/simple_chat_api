@@ -12,20 +12,20 @@
 
 ### Запуск проекта
 
-1. Клонируйте репозиторий:
+#### 1. Клонируйте репозиторий:
 
 ```bash
 git clone github.com/xGerfy/simple_api_chat
 cd simpleApiChat
 ```
 
-2. Запустите все сервисы:
+#### 2. Запустите все сервисы:
 
 ```bash
 docker-compose up --build
 ```
 
-3. API будет доступно по адресу: http://localhost:8080
+#### 3. API будет доступно по адресу: http://localhost:8080
 
 ## Примеры использования
 
